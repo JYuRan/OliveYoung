@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>올리브영 온라인몰</title>
+</head>
+
+<body>
+    <div id="wrap">
+        <!-- 헤더가 아이디인 헤더header#header -->
+        <header id="header" class="clearfix">
+            <!-- 나중에 가운데맞춤 할 class -->
+            <div class="container">
+                <!-- class header만듦 -->
+                <div class="header clearfix">
+                    <!-- ul>li>a  -->
+                    <ul class="list1 clearfix">
+                        <li><a href="#" class="f1">회원가입</a></li>
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">장바구니</a></li>
+                        <li><a href="#">주문배송</a></li>
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#">매장안내</a></li>
+                        <li><a href="#">Global</a></li>
+                    </ul>
+                </div><!-- //header -->
+                <div class="header_inner clearfix">
+                    <img src="img/h1_logo.png" alt="logo" class="logo">
+                    <div class="search_box">
+                        <label for="query"></label>
+                        <input type="text" id="query" placeholder="👈🏻김희진 포토카드 받기👈🏻">
+
+                        <img src="img/ico_search21x212.png" alt="search">
+                    </div><!-- //search_box -->
+                    <div class="header_menue">
+                        <ul>
+                            <li class="bottom_border top_menu_del"><a href="#">오늘드림 <img src="img/ico_delivery_flag.png"
+                                        alt=""></a>
+                                <div class="todayDeliver_Wrap clearfix">
+                                    <div class="todayDeliver clearfix">
+                                        <p class="todayDeliver_text clearfix">
+                                            배송지를등록하고오늘드림으로<br>
+                                            구매가능한상품을확인하세요!
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="bottom_border top_menu_arrow clearfix"><a href="#">관심 매장소식 <i
+                                        class="fas fa-caret-down"></i></a>
+                                <!-- 관심매장소식 로그인 -->
+                                <div class="login_add clearfix">
+                                    <div class="arrow">
+                                        <h1 class="login_add_box clearfix"><span>로그인</span> 하시면 자주가는 매장을<br> 관심매장으로 설정 할
+                                            수 있습니다.</h1>
+                                        <button class="login_add_btn" type="button" href="#">로그인</button>
+                                    </div>
+                                </div>
+                                <!-- 관심매장소식 로그인 -->
+                            </li>
+                            <li><a href="#">최근본상품 <i class="fas fa-caret-down"></i></a></li>
+                        </ul>
+                    </div><!-- //header_menue -->
+                </div><!-- //header_inner -->
+
+            </div>
+        </header><!-- //header -->
+        <nav id="nav">
+            <div id="gnb">
+                <div id="gnb_wrap">
+                    <a href="#" id="gnb_open">카테고리</a>
+                    <div class="menu_list">
+                        <ul>
+                            <li><a href="">오특</a></li>
+                            <li><a href="">신상</a></li>
+                            <li><a href="">랭킹</a></li>
+                            <li><a href="">프리미엄관</a></li>
+                            <li><a href="">기획전</a></li>
+                            <li><a href="">세일</a></li>
+                            <li><a href="">기프트카드</a></li>
+                            <li><a href="">멤버십/쿠폰</a></li>
+                            <li><a href="">이벤트</a></li>
+                        </ul>
+                    </div>
+                </div><!-- //gnb_wrap -->
+
+            </div><!-- //gnb -->
+            <div class="main_cate_wrap">
+                <div class="main_cate">
+                    <ul>
+                        <li class="type1 on"><a href="#">기초화장품</a>
+                            <div class="one_ban_box_wrap clearfix">
+                                <div class="sub_ban_list clearfix">
+                                    <ul>
+                                        <li class="type1_1 on"><a href="#">스킨케어</a>
+                                            <div class="one_one_ban_box_wrap">
+                                                <a href="#" class="one_one_ban_box">
+                                                    <div class="MD_Pick">
+                                                        <span>MD'sPick</span>
+                                                        <span>더랩바이블랑두💚</span>
+                                                        <span>그린플라보노이드<br>
+                                                            수분진정크림 1+1</span>
+                                                        <span>25,000원</span>
+                                                        <span>21,900원</span>
+                                                        <img src="img/type1_type1.jpg" alt="수분진정크림">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="type1_2 on"><a href="#">마스크팩</a>
+                                            <div class="one_two_ban_box_wrap">
+                                                <a href="#" class="one_two_ban_box">
+                                                    <div class="MD_Pick">
+                                                        <span>MD'sPick</span>
+                                                        <span>아누아💚</span>
+                                                        <span>끈적이지 않는<br>
+                                                            자작수분패드</span>
+                                                        <span>25,000원</span>
+                                                        <span>21,900원</span>
+                                                        <img src="img/type1_type2.jpg" alt="수분진정크림">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">클랜징</a></li>
+                                        <li class="type1_4 on"><a href="#">선케어</a>
+                                            <div class="one_four_ban_box_wrap">
+                                                <a href="#" class="one_four_ban_box">
+                                                    <div class="MD_Pick">
+                                                        <span>MD'sPick</span>
+                                                        <span>에뛰드 순정 디렉터</span>
+                                                        <span>수분 핏 선크림<br>
+                                                            올영 단독 1+1</span>
+                                                        <span>25,000원</span>
+                                                        <span>23,500원</span>
+                                                        <img src="img/type1_type4.jpg" alt="수분진정크림">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="type2 on"><a href="#">더코스메틱</a>
+                            <div class="two_ban_box_wrap">
+                                <a href="#" class="two_ban_box">
+                                    <div class="MD_Pick">
+                                        <span>MD'sPick</span>
+                                        <span>"형원pick💙</span>
+                                        <span>피크닉매트 증정<br>
+                                            #수분부스터"</span>
+                                        <span>30,000원</span>
+                                        <span>22,500원</span>
+                                        <img src="img/type2_on.jpg" alt="형원pick">
+                                    </div>
+                                </a>
+                            </div>
+
+                        </li>
+                        <li class="type3 on"><a href="#">메이크업ㆍ네일</a>
+                            <div class="three_ban_box_wrap">
+                                <div class="sub_ban_list">
+                                    <ul>
+                                        <li><a href="#">메이크업</a></li>
+                                        <li><a href="#">네일</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="type4 on"><a href="#">바디케어</a>
+                            <div class="four_ban_box_wrap">
+                                <a href="#" class="four_ban_box">
+                                    <div class="MD_Pick">
+                                        <span>MD'sPick</span>
+                                        <span>낫포유💙</span>
+                                        <span>트러블케어2탄<br>
+                                            바디세럼 출시✨</span>
+                                        <span>23,9000원</span>
+                                        <span>20,900원</span>
+                                        <img src="img/type4_on.jpg" alt="형원pick">
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="type5 on"><a href="#">헤어케어</a>
+                            <div class="five_ban_box_wrap">
+                                <a href="#" class="five_ban_box">
+                                    <div class="MD_Pick">
+                                        <span>MD'sPick</span>
+                                        <span>모다모다🖤</span>
+                                        <span>올영단독 신상기획!<br>
+                                            더 확실한 새치케어</span>
+                                        <span>34,000원</span>
+                                        <span>32,300원</span>
+                                        <img src="img/type5_on.jpg" alt="형원pick">
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="type6 on"><a href="#">향수/디퓨저</a>
+                            <div class="six_ban_box_wrap">
+                                <a href="#" class="six_ban_box">
+                                    <div class="MD_Pick">
+                                        <span>MD'sPick</span>
+                                        <span>쿤달</span>
+                                        <span>네고왕 앵콜전<br>
+                                            #최대55%할인</span>
+                                        <span>43,700원</span>
+                                        <span>19,600원</span>
+                                        <img src="img/type6_on.jpg" alt="형원pick">
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li><a href="#">미용소품</a></li>
+                        <li class="type8 on"><a href="#">남성</a>
+                            <div class="eight_ban_box_wrap">
+                                <a href="#" class="eight_ban_box">
+                                    <div class="MD_Pick">
+                                        <span>MD'sPick</span>
+                                        <span>모제림🖤</span>
+                                        <span>올리브영 상륙<br>
+                                            #탈모샴푸 #남자선물</span>
+                                        <span>19,900원</span>
+                                        <span>18,900원</span>
+                                        <img src="img/type8_on.jpg" alt="모제림탈모샴푸">
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="type9 on"><a href="#">건강/위생용품</a>
+                            <div class="nine_ban_box_wrap">
+                                <a href="#" class="nine_ban_box">
+                                    <div class="MD_Pick">
+                                        <span>MD'sPick</span>
+                                        <span>바솔🧡</span>
+                                        <span>불쾌취OUT!<br>
+                                            리필150ml단독기획</span>
+                                        <span>36,000원</span>
+                                        <span>30,300원</span>
+                                        <img src="img/type9_on.jpg" alt="바솔🧡">
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="type10 on"><a href="#">건강식품</a>
+                            <div class="ten_ban_box_wrap">
+                                <a href="#" class="ten_ban_box">
+                                    <div class="MD_Pick">
+                                        <span>MD'sPick</span>
+                                        <span>맛있는 유산균🤞</span>
+                                        <span>올리브영 론칭기념<br>
+                                            하나 사면 하나 더!</span>
+                                        <span></span>
+                                        <span>26,600원</span>
+                                        <img src="img/type10_on.jpg" alt="맛있는유산균">
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="type11 on"><a href="#">푸드</a>
+                            <div class="eleven_ban_box_wrap">
+                                <a href="#" class="eleven_ban_box">
+                                    <div class="MD_Pick">
+                                        <span>MD'sPick</span>
+                                        <span>이디야</span>
+                                        <span>갓성비!커피!<br>
+                                            캡슐커피SET</span>
+                                        <span>22,890원</span>
+                                        <span>21,900원</span>
+                                        <img src="img/type11_on.jpg" alt="캡슐커피SET">
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li><a href="#">라이프/홈</a></li>
+                        <li><a href="#">반려동물</a></li>
+                        <li><a href="#">베이비</a></li>
+                        <li class="type15"><a href="#" class="awards">
+                                <img src="img/icon_awards_32.png" alt="어워드">AWARDS</a></li>
+                    </ul>
+                </div>
+            </div><!-- //main_cate_wrap -->
+        </nav><!-- //nav -->
+        <div id="container">
+            <div id="contents">
+                <div class="banner clearfix">
+                    <div class="banner_wrap clearfix">
+                        <!-- slick_slider -->
+                        <div class="slick_slider">
+                            <div class="slick">
+
+                                <div class="Slide1">
+                                    <div class="slider_text_wrap">
+                                        <div class="slider_txt white">
+                                            <h5>올영PICK</h5>
+                                            <h1>올리브영이<br>
+                                                P!CK한<br>
+                                                이 달의 브랜드</h1>
+                                            <h4>단3일,최대52%할인</h4>
+                                        </div>
+                                    </div>
+                                    <a href="#"><img src="img/slider/slider1.jpg" alt=""></a>
+                                    <span class="main_slide_num">1/13</span>
+                                </div>
+                                <div class="Slide1">
+                                    <div class="slider_text_wrap">
+                                        <div class="slider_txt">
+                                            <h5>올영PICK</h5>
+                                            <h1>찝찝함 덜어내고<br>
+                                                상쾌함을<br>
+                                                채워요</h1>
+                                            <h4>바디제품 최대 50%할인</h4>
+                                        </div>
+                                    </div>
+                                    <a href="#">
+                                        <img src="img/slider/slider2.jpg" alt=""></a>
+                                    <span class="main_slide_num">2/13</span>
+                                </div>
+                                <div class="Slide1">
+                                    <div class="slider_text_wrap">
+                                        <div class="slider_txt">
+                                            <h5>올영PICK</h5>
+                                            <h1>올리브영이<br>
+                                                P!CK한<br>
+                                                이 달의 브랜드</h1>
+                                            <h4>단3일,최대52%할인</h4>
+                                        </div>
+                                    </div>
+                                    <a href="#">
+                                        <img src="img/slider/slider3.jpg" alt=""></a>
+                                    <span class="main_slide_num">3/13</span>
+
+                                </div>
+                                <div class="Slide1">
+                                    <div class="slider_text_wrap">
+                                        <div class="slider_txt">
+                                            <h5>올영PICK</h5>
+                                            <h1>자외선<br>
+                                                걱정 없이<br>
+                                                바캉스 떠나요</h1>
+                                            <h4>썬케어 최대57%할인</h4>
+                                        </div>
+                                    </div>
+                                    <a href="#">
+
+                                        <img src="img/slider/slider4.jpg" alt=""></a>
+                                    <span class="main_slide_num"></span>
+
+                                </div>
+                                <div class="Slide1">
+                                    <div class="slider_text_wrap">
+                                        <div class="slider_txt white">
+                                            <h5>올영PICK</h5>
+                                            <h1>더위에<br>
+                                                뺴앗긴 수분<br>
+                                                급속 충전해요</h1>
+                                            <h4>모공&수분케어 최대50%할인</h4>
+                                        </div>
+                                    </div>
+                                    <a href="#">
+
+                                        <img src="img/slider/slider5.jpg" alt=""></a>
+                                    <span class="main_slide_num"></span>
+
+                                </div>
+                                <div class="Slide1">
+                                    <div class="slider_text_wrap">
+                                        <div class="slider_txt">
+                                            <h5>올영PICK</h5>
+                                            <h1>폭염에서<br>
+                                                살아남는<br>
+                                                5분비법</h1>
+                                            <h4>쿨링헤어 최대53%할인</h4>
+                                        </div>
+                                    </div>
+                                    <a href="#"><img src="img/slider/slider6.jpg" alt=""></a>
+                                    <span class="main_slide_num"></span>
+
+                                </div>
+                                <div class="Slide1">
+                                    <div class="slider_text_wrap">
+                                        <div class="slider_txt">
+                                            <h5>올영PICK</h5>
+                                            <h1>조금 더 건강한<br>
+                                                헤어케어<br>
+                                                루틴</h1>
+                                            <h4>헤어제품 최대50%할인</h4>
+                                        </div>
+                                    </div>
+                                    <a href="#"><img src="img/slider/slider7.jpg" alt=""></a>
+                                    <span class="main_slide_num"></span>
+
+                                </div>
+                                <div class="Slide1">
+                                    <div class="slider_text_wrap">
+                                        <div class="slider_txt">
+                                            <h5>올영PICK</h5>
+                                            <h1>그냥 예뻐서<br>
+                                                샀더니<br>
+                                                다 비건이에요</h1>
+                                            <h4>비건 색조템 최대38%할인</h4>
+                                        </div>
+                                    </div>
+                                    <a href="#"><a href="#"><img src="img/slider/slider8.jpg" alt=""></a>
+                                    </a><span class="main_slide_num"></span>
+
+                                </div>
+                                <div class="Slide1">
+                                    <div class="slider_text_wrap">
+                                        <div class="slider_txt">
+                                            <h5>올영PICK</h5>
+                                            <h1>일상 속<br>
+                                                더 똑똑해진<br>
+                                                페미닌 케어</h1>
+                                            <h4>여성건강케어 최대22%할인</h4>
+                                        </div>
+                                    </div><a href="#">
+                                        <img src="img/slider/slider9.jpg" alt=""></a>
+                                    <span class="main_slide_num"></span>
+
+                                </div>
+                                <div class="Slide1">
+                                    <div class="slider_text_wrap">
+                                        <div class="slider_txt">
+                                            <h5>무지개맨션</h5>
+                                            <h1>SNS에서 보던<br>
+                                                비건 틴트<br>
+                                                올영에서 만나요</h1>
+                                            <h4>최대15%할인</h4>
+                                        </div>
+                                    </div><a href="#">
+                                        <img src="img/slider/slider10.jpg" alt=""></a>
+                                    <span class="main_slide_num"></span>
+
+                                </div>
+                                <div class="Slide1">
+                                    <div class="slider_text_wrap">
+                                        <div class="slider_txt">
+                                            <h5>줄라이미</h5>
+                                            <h1>풍부한 향기는<br>
+                                                영감을<br>
+                                                만들어요</h1>
+                                            <h4>페르소나 퍼퓸 최대23%할인</h4>
+                                        </div>
+                                    </div><a href="#">
+                                        <img src="img/slider/slider11.jpg" alt=""></a>
+                                    <span class="main_slide_num"></span>
+
+                                </div>
+                                <div class="Slide1">
+                                    <div class="slider_text_wrap">
+                                        <div class="slider_txt">
+                                            <h5>루톤</h5>
+                                            <h1>여성두피에<br>
+                                                맞춤 설계된<br>
+                                                탈모완화 테라피</h1>
+                                            <h4>루톤 두피케어 최대25%할인</h4>
+                                        </div>
+                                    </div>
+                                    <a href="#"><img src="img/slider/slider12.jpg" alt=""></a>
+                                    <span class="main_slide_num"></span>
+
+                                </div>
+                                <div class="Slide1">
+                                    <div class="slider_text_wrap">
+                                        <div class="slider_txt">
+                                            <h5>바닐라코</h5>
+                                            <h1>갓딴<br>
+                                                여름 복숭아<br>
+                                                생기가 올라와요</h1>
+                                            <h4>최대 30%할인 및 브러쉬 증정</h4>
+                                        </div>
+                                    </div>
+                                    <a href="#">
+                                        <img src="img/slider/slider13.jpg" alt=""></a>
+                                    <span class="main_slide_num"></span>
+
+                                </div>
+
+                            </div>
+                        </div><!-- //slick_slider -->
+                    </div><!-- //<banner_wrap -->
+                </div><!-- //banner -->
+            </div><!-- //contents -->
+            <div class="mid_banner clearfix">
+                <ul>
+                    <li><a href="#"><img src="img/smail_ban_lejpg.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="img/smail_ban_ri.jpg" alt=""></a></li>
+                </ul>
+            </div><!-- //mid_banner -->
+            <div class="curation_wrap clearfix">
+                <div class="cuation_area1 clearfix">
+
+                    <div class="cuation_title">
+                        <h1>유사한 고객님이<br>
+                            많이 구매했어요</h1>
+                        <a href="#"><span>더보기 <i class="fas fa-chevron-right"></i></span>
+                        </a>
+                    </div><!-- //cuation_title -->
+                    <!-- arrow -->
+
+                    <button type="button" class="slick-next slick-arrow">다른 상품 추천해드릴게요
+                        <span class="num_right">1</span>
+                        <span class="num_left">5</span>
+                    </button>
+                    <!-- arrow -->
+                    <div class="cuation_slide1_wrap">
+
+                        <div class="cuation_slide1">
+                            <ul>
+                                <li>
+                                    <span class="best">베스트</span>
+                                    <a href="#"><img src="img/recommend_slider/re_slider1_1.jpg" alt="미노이">
+                                        <a href="#" class="cuation_text_box clearfix">
+                                            <span class="text_tp2">[미노이PICK/미노이QR카드]<br>
+                                                줄라이미 페르소나 퍼퓸 50ml 단독</span>
+
+                                            <span class="text_tp3">46,000d원~</span>
+                                            <span class="text_tp4">37,260원~</span>
+                                            <span class="bag_icon"><img src="img/icon_bag.png" alt="장바구니"></span>
+                                            <div class="sale_icon">
+                                                <span class="icon1">세일</span>
+                                                <span class="icon2">쿠폰</span>
+                                                <span class="icon3">증정</span>
+                                                <span class="icon4">오늘드림</span>
+                                            </div>
+                                        </a>
+                                    </a>
+                                </li>
+                                <li>
+                                    <span class="best">베스트</span>
+
+                                    <a href="#"><img src="img/type6_on.jpg" alt="쿤달제너">
+                                        <a href="#" class="cuation_text_box clearfix">
+                                            <span class="text_tp2">[네고왕 앵콜]쿤달 디퓨저 세트<br>
+                                                (디퓨터4구+옷장방향제4개)4종</span>
+                                            <span class="text_tp3">43,700d원~</span>
+                                            <span class="text_tp4">19,600원~</span>
+                                            <span class="bag_icon"><img src="img/icon_bag.png" alt="장바구니"></span>
+
+                                            <div class="sale_icon">
+                                                <span class="icon2">쿠폰</span>
+                                            </div>
+                                        </a>
+                                    </a>
+                                </li>
+                            </ul>
+
+
+                        </div><!-- slide_1-1 -->
+                        <div class="cuation_slide1">
+                            <ul>
+                                <li>
+                                    <span class="best">베스트</span>
+                                    <a href="#"><img src="img/recommend_slider/re_slider1_2.jpg" alt="조효진">
+                                        <a href="#" class="cuation_text_box clearfix">
+                                            <span class="text_tp2">[조효진Pick]아비브 어성초 스팟<br>
+                                                패드 카밍터치 리필 기획(80매)</span>
+
+                                            <span class="text_tp3">40,000원~</span>
+                                            <span class="text_tp4">26,600원~</span>
+                                            <span class="bag_icon"><img src="img/icon_bag.png" alt="장바구니"></span>
+                                            <div class="sale_icon">
+                                                <span class="icon1">세일</span>
+                                                <span class="icon2">쿠폰</span>
+                                                <span class="icon3">증정</span>
+                                                <span class="icon4">오늘드림</span>
+                                            </div>
+                                        </a>
+                                    </a>
+                                </li>
+                                <li>
+                                    <span class="best">베스트</span>
+
+                                    <a href="#"><img src="img/recommend_slider/re_slider1_44.jpg" alt="스팟패치">
+                                        <a href="#" class="cuation_text_box clearfix">
+                                            <span class="text_tp2">올리브영 케어플러스 상처커버<br>
+                                                스팟패치 2종 택1</span>
+                                            <span class="text_tp3">6,000원~</span>
+                                            <span class="text_tp4">57,000원~</span>
+                                            <span class="bag_icon"><img src="img/icon_bag.png" alt="장바구니"></span>
+
+                                            <div class="sale_icon">
+                                                <span class="icon1">세일</span>
+
+                                                <span class="icon4">오늘드림</span>
+                                            </div>
+                                        </a>
+                                    </a>
+                                </li>
+                            </ul>
+
+
+                        </div><!-- slide_1-2 -->
+                        <div class="cuation_slide1">
+                            <ul>
+                                <li>
+                                    <span class="best">베스트</span>
+                                    <a href="#"><img src="img/recommend_slider/re-nockdoo.jpg" alt="녹두클랜징폼">
+                                        <a href="#" class="cuation_text_box clearfix">
+                                            <span class="text_tp2">[단독기획]비플레인 녹두 약산성<br>
+                                                클렌징폼 대용량 160ml1+1기획</span>
+
+                                            <span class="text_tp3">24,000원~</span>
+                                            <span class="text_tp4">22,800원~</span>
+                                            <span class="bag_icon"><img src="img/icon_bag.png" alt="장바구니"></span>
+                                            <div class="sale_icon">
+                                                <span class="icon1">세일</span>
+                                                <span class="icon4">오늘드림</span>
+                                            </div>
+                                        </a>
+                                    </a>
+                                </li>
+                                <li>
+                                    <span class="best">베스트</span>
+
+                                    <a href="#"><img src="img/recommend_slider/re_slideer_dj.jpg" alt="수딩크림">
+                                        <a href="#" class="cuation_text_box clearfix">
+                                            <span class="text_tp2">
+                                                [2세대 천만크림]닥터지 레드
+                                                <br>
+                                                블레미쉬 클리어 수딩 크림</span>
+                                            <span class="text_tp3">36,000원~</span>
+                                            <span class="text_tp4">25,200원~</span>
+                                            <span class="bag_icon"><img src="img/icon_bag.png" alt="장바구니"></span>
+
+                                            <div class="sale_icon">
+                                                <span class="icon1">세일</span>
+                                                <span class="icon3">증정</span>
+                                                <span class="icon4">오늘드림</span>
+                                            </div>
+                                        </a>
+                                    </a>
+                                </li>
+                            </ul>
+
+
+                        </div><!-- slide_1-3 -->
+                        <div class="cuation_slide1">
+                            <ul>
+                                <li>
+                                    <span class="best">베스트</span>
+                                    <a href="#"><img src="img/recommend_slider/re_3-1.jpg" alt="미노이">
+                                        <a href="#" class="cuation_text_box clearfix">
+                                            <span class="text_tp2">[단독기획] 아비브 약산성 pH시트<br>
+                                                마스크 어성초 핏 5+1매 기획</span>
+
+                                            <span class="text_tp3">20,000원~</span>
+                                            <span class="text_tp4">11,400원~</span>
+                                            <span class="bag_icon"><img src="img/icon_bag.png" alt="장바구니"></span>
+                                            <div class="sale_icon">
+                                                <span class="icon1">세일</span>
+                                                <span class="icon2">쿠폰</span>
+                                                <span class="icon3">증정</span>
+                                                <span class="icon4">오늘드림</span>
+                                            </div>
+                                        </a>
+                                    </a>
+                                </li>
+                                <li>
+                                    <span class="best">베스트</span>
+
+                                    <a href="#"><img src="img/recommend_slider/re_slider4_1.jpg" alt="한예리 Pick">
+                                        <a href="#" class="cuation_text_box clearfix">
+                                            <span class="text_tp2">[네고왕 앵콜]쿤달 디퓨저 세트<br>
+                                                (디퓨터4구+옷장방향제4개)4종</span>
+                                            <span class="text_tp3">43,700d원~</span>
+                                            <span class="text_tp4">19,600원~</span>
+                                            <span class="bag_icon"><img src="img/icon_bag.png" alt="장바구니"></span>
+
+                                            <div class="sale_icon">
+                                                <span class="icon2">쿠폰</span>
+                                            </div>
+                                        </a>
+                                    </a>
+                                </li>
+                            </ul>
+
+
+                        </div><!-- slide_1-4 -->
+                        <div class="cuation_slide1">
+                            <ul>
+                                <li>
+                                    <span class="best">베스트</span>
+                                    <a href="#"><img src="img/recommend_slider/5-1.jpg" alt="속눈썹영양">
+                                        <a href="#" class="cuation_text_box clearfix">
+                                            <span class="text_tp2">[보라끌레르Pick] 코스노리 롱<br>
+                                               액티브 아이래쉬 세럼 속눈썹영양제</span>
+
+                                            <span class="text_tp3">14,000원~</span>
+                                            <span class="text_tp4">12,600원~</span>
+                                            <span class="bag_icon"><img src="img/icon_bag.png" alt="장바구니"></span>
+                                            <div class="sale_icon">
+                                                <span class="icon1">세일</span>
+                                                <span class="icon4">오늘드림</span>
+                                            </div>
+                                        </a>
+                                    </a>
+                                </li>
+                                <li>
+                                    <span class="best">베스트</span>
+
+                                    <a href="#"><img src="img/recommend_slider/5-2.jpg" alt="롱라이너">
+                                        <a href="#" class="cuation_text_box clearfix">
+                                            <span class="text_tp2">리얼 유기농 순면 롱 라이너 18P</span>
+                                            <span class="text_tp3">5,000원~</span>
+                                            <span class="text_tp4">3,900원~</span>
+                                            <span class="bag_icon"><img src="img/icon_bag.png" alt="장바구니"></span>
+
+                                            <div class="sale_icon">
+                                                <span class="icon1">세일</span>
+                                                <span class="icon2">쿠폰</span>
+                                                <span class="icon3">증정</span>
+                                                <span class="icon4">오늘드림</span>
+                                            </div>
+                                        </a>
+                                    </a>
+                                </li>
+                            </ul>
+
+
+                        </div><!-- slide_1-5 -->
+                    </div><!-- //cuation_slide -->
+                </div><!-- //cuation_area1 -->
+                <div class="cuation_area2 clearfix">
+
+                    <div class="cuation_title">
+                        <h1>좋아하실만한<br>
+                            베스트 상품 추천해드려요</h1>
+                        <a href="#"><span>더보기 <i class="fas fa-chevron-right"></i></span>
+                        </a>
+                    </div><!-- //cuation_title -->
+                     <!-- arrow -->
+
+                     <button type="button" class="slick-next slick-arrow">다른 상품 추천해드릴게요
+                        <span class="num_right">1</span>
+                        <span class="num_left">5</span>
+                    </button>
+                    <!-- arrow -->
+                    <div class="cuation_slide2_wrap">
+
+                        <div class="cuation_slide1">
+                            <ul>
+                                <li>
+                                    <span class="best">베스트</span>
+                                    <a href="#"><img src="img/recommend_slider/re_wood.jpg" alt="선스틱">
+                                        <a href="#" class="cuation_text_box clearfix">
+                                            <span class="text_tp2">[우린Pick]식물나라<br>
+                                                산소수페이스앤바디보송선스틱</span>
+
+                                            <span class="text_tp3">46,000d원~</span>
+                                            <span class="text_tp4">37,260원~</span>
+                                            <span class="bag_icon"><img src="img/icon_bag.png" alt="장바구니"></span>
+                                            <div class="sale_icon">
+                                                <span class="icon1">세일</span>
+                                                <span class="icon4">오늘드림</span>
+                                            </div>
+                                        </a>
+                                    </a>
+                                </li>
+                                <li>
+                                    <span class="best">베스트</span>
+
+                                    <a href="#"><img src="img/recommend_slider/mc_slide.jpg" alt="클렌징오일">
+                                        <a href="#" class="cuation_text_box clearfix">
+                                            <span class="text_tp2">마녀공장 퓨어 클랜징오일 3000ml<br>
+                                                블랙헤드 올킬세트</span>
+                                            <span class="text_tp3">25,000원~</span>
+                                            <span class="text_tp4">19,400원~</span>
+                                            <span class="bag_icon"><img src="img/icon_bag.png" alt="장바구니"></span>
+
+                                            <div class="sale_icon">
+                                                <span class="icon1">세일</span>
+                                                <span class="icon2">쿠폰</span>
+                                                <span class="icon4">오늘드림</span>
+                                            </div>
+                                        </a>
+                                    </a>
+                                </li>
+                            </ul>
+
+
+                        </div><!-- slide_1-1 -->
+                        <div>
+
+                        </div><!-- slide_1-2 -->
+                        <div>
+
+                        </div><!-- slide_1-3 -->
+                        <div>
+
+                        </div><!-- slide_1-4 -->
+                        <div>
+
+                        </div><!-- slide_1-5 -->
+                    </div><!-- //cuation_slide -->
+                </div><!-- //cuation_area2 -->
+            </div><!-- //curation_wrap -->
+            <!-- main_plan_banner -->
+            <div class="main_plan_banner">
+                <div class="main_sub_tit">
+                    <h1>Weekly Special</h1>
+                </div>
+                <div class="recomm_plan">
+                    <ul class="recomm_plan_list">
+                        <li><a href="#">
+                            <img src="img/slider_only/vora.jpg" alt="">
+                            <div class="plan_txt_box">
+                            <h2 class="plan_txt">포근하고 향긋한
+                                <br>스너글에 안겨보라곰
+                            </h2>
+                            <h5 class="plan_sub_txt">#스너곰 기획팩</h5>
+                        </div>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="img/slider_only/onet.jpg" alt="">
+                            <div class="plan_txt_box">
+                            <h2 class="plan_txt">한번의 터치로
+                                <br>빛나는 글린트
+                            </h2>
+                            <h5 class="plan_sub_txt">#진절미 PICK</h5>
+                            </div>
+                        </a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <!-- //main_plan_banner -->
+            <div class="main_plan_banner b2">
+                <h3 class="main_sub_tit">
+                    인기 행사만 모았어요!
+                </h3><!-- //main_sub_tit -->
+                <div class="banner_wrap">
+                    <!-- slick -->
+                    <div class="popular_slide">
+                        <div class="slider_unit clearfix">
+                            <div class="plan_top clearfix">
+                                <a href="#">
+                                    <img src="img/slider2/다현.jpg" alt="다현">
+                                    <div class="plan_txt_box">
+                                        <h2 class="plan_txt">다현 PICK!
+                                            <br>어퓨 시카진정라인
+                                        </h2>
+                                        <h5 class="plan_sub_txt">#최대 43% 할인</h5>
+                                    </div>
+                                </a>
+                               
+                                <ul class="cate_prd_list">
+                                    <li><a href="#">
+                                        <span class="best">베스트</span>
+                                        <img src="img/slider2/다현1.jpg" alt="다현시카크림">
+                                            <a href="#" class="cuation_text_box clearfix">
+                                                <span class="text_tp1">어퓨</span>
+                                                <span class="text_tp2">어퓨 마데카소사이드 시카 크림 2X<br>
+                                                    120ml</span>
+        
+                                                    <span class="text_tp3">21,000원</span>
+                                                    <span class="text_tp4">11,970원</span>
+                                                    <div class="sale_icon">
+                                                    <span class="icon1">세일</span>
+                                                    <span class="icon2">쿠폰</span>
+                                                    <span class="icon3">증정</span>
+                                                    <span class="icon4">오늘드림</span>
+                                                </div>
+                                            </a>
+                                    </a></li>
+                                    <li><a href="#">
+                                        <span class="best">베스트</span>
+                                        <img src="img/slider2/다현2.jpg" alt="다현시카크림">
+                                            <a href="#" class="cuation_text_box clearfix">
+                                                <span class="text_tp1">어퓨</span>
+                                                <span class="text_tp2">어퓨 마데카소사이드 시카 엠플<br>
+                                                50ml</span>
+    
+                                                <span class="text_tp3">28,000원</span>
+                                                <span class="text_tp4">15,960원</span>
+                                                <div class="sale_icon">
+                                                    <span class="icon1">세일</span>
+                                                    <span class="icon2">쿠폰</span>
+                                                    <span class="icon3">증정</span>
+                                                    <span class="icon4">오늘드림</span>
+                                                </div>
+                                            </a>
+                                    </a></li>
+                                </ul><!-- //cate_prd_list -->
+                            </div><!-- //plan_top -->
+                            <div class="plan_top">
+                                <a href="#">
+                                    <img src="img/slider2/다현.jpg" alt="다현">
+                                    <div class="plan_txt_box">
+                                        <h2 class="plan_txt">다현 PICK!
+                                            <br>어퓨 시카진정라인
+                                        </h2>
+                                        <h5 class="plan_sub_txt">#최대 43% 할인</h5>
+                                    </div>
+                                </a>
+                               
+                                <ul class="cate_prd_list">
+                                    <li><a href="#">
+                                        <span class="best">베스트</span>
+                                        <img src="img/slider2/다현1.jpg" alt="다현시카크림">
+                                            <a href="#" class="cuation_text_box clearfix">
+                                                <span class="text_tp1">어퓨</span>
+                                                <span class="text_tp2">어퓨 마데카소사이드 시카 크림 2X<br>
+                                                    120ml</span>
+        
+                                                    <span class="text_tp3">21,000원</span>
+                                                    <span class="text_tp4">11,970원</span>
+                                                    <div class="sale_icon">
+                                                    <span class="icon1">세일</span>
+                                                    <span class="icon2">쿠폰</span>
+                                                    <span class="icon3">증정</span>
+                                                    <span class="icon4">오늘드림</span>
+                                                </div>
+                                            </a>
+                                    </a></li>
+                                    <li><a href="#">
+                                        <span class="best">베스트</span>
+                                        <img src="img/slider2/다현2.jpg" alt="다현시카크림">
+                                            <a href="#" class="cuation_text_box clearfix">
+                                                <span class="text_tp1">어퓨</span>
+                                                <span class="text_tp2">어퓨 마데카소사이드 시카 엠플<br>
+                                                50ml</span>
+    
+                                                <span class="text_tp3">28,000원</span>
+                                                <span class="text_tp4">15,960원</span>
+                                                <div class="sale_icon">
+                                                    <span class="icon1">세일</span>
+                                                    <span class="icon2">쿠폰</span>
+                                                    <span class="icon3">증정</span>
+                                                    <span class="icon4">오늘드림</span>
+                                                </div>
+                                            </a>
+                                    </a></li>
+                                </ul><!-- //cate_prd_list -->
+                            </div><!-- //plan_top -->
+                        </div><!-- //slider_unit -->
+                        <!-- //slide1 -->
+                        <div>1</div>
+                        <!-- //slide2 -->
+                        <div>1</div>
+                        <!-- slide3 -->
+                        <div>1</div>
+                        <!-- slide4 -->
+                    </div><!-- //popular_slide -->
+                </div><!-- /banner_wrap -->
+            </div>
+        </div><!-- //contents -->
+        <div class="layer_pop_wrap">
+            <div id="directTop" class="directTop">
+                <button>
+                    <span><i class="fab fa-octopus-deploy"></i></span>
+                    TOP
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/svg-with-js.min.css"
+        integrity="sha512-l+ipEBR9oBcma5MXLkYrV6IaFqkDlNyHhhtMBcgKRGNdk2O3YBU3G1SwhfB4btQbLJOs6GmiiCvSJNpMbFZcSg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script>
+        //slick1
+        $(document).ready(function () {
+            $('.slick').slick({
+                fade: true
+            });
+        });
+    </script>
+    <script>
+        var mainSlide = document.querySelectorAll('.Slide1');
+        var slic = document.querySelectorAll('.main_slide_num');
+        var mainSlidActive = mainSlide[0].classList[3] == 'slick-active';
+        var slickActive = document.querySelectorAll('.slick-active')
+        var cuaSlide1Index 
+        var cuaSlide2Index  
+        var arrowNext = document.querySelectorAll('.curation_wrap .slick-next');
+        var c_arrowNum = document.querySelectorAll('.curation_wrap .slick-next .num_right');
+        window.onload = function () {
+            arrowNext[0].addEventListener('click',nextFunc1);
+            arrowNext[1].addEventListener('click',nextFunc2);
+        }
+
+        function nextFunc1(){
+            slickActive = document.querySelectorAll('.slick-active')
+            cuaSlide1Index = document.querySelectorAll('.slick-active')[1].dataset.slickIndex
+            if((Number(cuaSlide1Index)+1)>=6){
+                c_arrowNum[0]=1;
+            }else{
+                c_arrowNum[0].innerHTML= Number(cuaSlide1Index)+1;
+            }}
+        function nextFunc2(){
+            slickActive = document.querySelectorAll('.slick-active')
+            cuaSlide2Index = document.querySelectorAll('.slick-active')[2].dataset.slickIndex
+            if((Number(cuaSlide2Index)+1)>=6){
+                c_arrowNum[1].innerHTML = 1
+            }else{
+            c_arrowNum[1].innerHTML= Number(cuaSlide2Index)+1
+        }
+    }
+        function testFunc() {
+            var i;
+            for (i = 0; i < mainSlide.length; i++) {
+                slic[i].innerHTML = (i + 1) + "/" + mainSlide.length;
+            }
+        }
+
+        testFunc()
+        // document.log(Array.from(document.querySelectorAll('.Slide1')).indexOf(document.querySelector('.slick-active')))
+        // var index = Array.from(document.querySelectorAll('.Slide1')).indexOf(document.querySelector('.slick-active'))
+        Array.from(document.querySelectorAll('.Slide1')).indexOf(document.querySelector(
+            '.slick-active'))
+
+
+    </script>
+
+    <script>
+        //slick2
+        $(document).ready(function () {
+            $('.cuation_slide1_wrap').slick({
+                nextArrow: $('.cuation_area1 .slick-next'),
+                fade: true,
+                autoplay:false,
+                draggable:false,
+            });
+            
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.cuation_slide2_wrap').slick({
+                nextArrow: $('.cuation_area2 .slick-next'),
+                fade: true,
+                autoplay:false,
+                draggable:false
+            });
+        });
+    </script>
+    <script>
+        //mouseover
+        $('.bottom_border.top_menu_del').mouseover(function () {
+            $('.todayDeliver').addClass('up')
+            $('.todayDeliver').css('display', 'block')
+        })
+        $('.top_menu_del, .todayDeliver').mouseout(function () {
+
+            $('.todayDeliver').removeClass('up')
+            $('.todayDeliver').css('display', 'none')
+        })
+        //  type1(카테고리 기초화장품) menu
+        $('.type1').mouseover(function () {
+            // $('.todayDeliver').addClass('on')
+            $('.one_ban_box_wrap ').css('display', 'block')
+        })
+        $('.type1').mouseout(function () {
+            // $('.todayDeliver').removeClass('on')
+            $('.one_ban_box_wrap ').css('display', 'none')
+        })
+        //  type2(형원pick) menu
+        $('.type2').mouseover(function () {
+            $('.two_ban_box_wrap ').css('display', 'block')
+        })
+        $('.type2').mouseout(function () {
+            $('.two_ban_box_wrap ').css('display', 'none')
+        })
+        //  type3(메이크업,네일)) menu
+        $('.type3').mouseover(function () {
+            $('.three_ban_box_wrap ').css('display', 'block')
+        })
+        $('.type3').mouseout(function () {
+            $('.three_ban_box_wrap ').css('display', 'none')
+        })
+        //  type4(바디케어) menu
+        $('.type4').mouseover(function () {
+            $('.four_ban_box_wrap ').css('display', 'block')
+        })
+        $('.type4').mouseout(function () {
+            $('.four_ban_box_wrap ').css('display', 'none')
+        })
+        //  type5(헤어케어) menu
+        $('.type5').mouseover(function () {
+            $('.five_ban_box_wrap ').css('display', 'block')
+        })
+        $('.type5').mouseout(function () {
+            $('.five_ban_box_wrap ').css('display', 'none')
+        })
+        //  type6(바디케어) menu
+        $('.type6').mouseover(function () {
+            $('.six_ban_box_wrap ').css('display', 'block')
+        })
+        $('.type6').mouseout(function () {
+            $('.six_ban_box_wrap ').css('display', 'none')
+        })
+        //  type8(남성) menu
+        $('.type8').mouseover(function () {
+            $('.eight_ban_box_wrap ').css('display', 'block')
+        })
+        $('.type8').mouseout(function () {
+            $('.eight_ban_box_wrap ').css('display', 'none')
+        })
+        //  type9(건강/위생용품) menu
+        $('.type9').mouseover(function () {
+            $('.nine_ban_box_wrap ').css('display', 'block')
+        })
+        $('.type9').mouseout(function () {
+            $('.nine_ban_box_wrap ').css('display', 'none')
+        })
+        //  type10(건강식품) menu
+        $('.type10').mouseover(function () {
+            $('.ten_ban_box_wrap ').css('display', 'block')
+        })
+        $('.type10').mouseout(function () {
+            $('.ten_ban_box_wrap ').css('display', 'none')
+        })
+        //  type11(푸드) menu
+        $('.type11').mouseover(function () {
+            $('.eleven_ban_box_wrap ').css('display', 'block')
+        })
+        $('.type11').mouseout(function () {
+            $('.eleven_ban_box_wrap ').css('display', 'none')
+        })
+        //  type1_1(스킨케어) menu
+        $('.type1_1').mouseover(function () {
+            $('.one_one_ban_box_wrap ').css('display', 'block')
+        });
+        $('.type1_1').mouseout(function () {
+            $('.one_one_ban_box_wrap ').css('display', 'none')
+        });
+        //  type1_2(스킨케어) menu
+        $('.type1_2').mouseover(function () {
+            $('.one_two_ban_box_wrap ').css('display', 'block')
+        });
+        $('.type1_2').mouseout(function () {
+            $('.one_two_ban_box_wrap ').css('display', 'none')
+        });
+        //  type1_4(스킨케어) menu
+        $('.type1_4').mouseover(function () {
+            $('.one_four_ban_box_wrap ').css('display', 'block')
+        });
+        $('.type1_4').mouseout(function () {
+            $('.one_four_ban_box_wrap ').css('display', 'none')
+        });
+
+
+
+
+
+        $('.top_menu_arrow a').mouseover(function () {
+            $('.top_menu_arrow').addClass('up')
+            $('.login_add').css('display', 'block')
+
+            if ($('.top_menu_arrow').hasClass('up')) {
+                $('.top_menu_arrow').find('i').attr('class', "fas fa-caret-up");
+            } else {
+                $('.top_menu_arrow').find('i').attr('class', "fas fa-caret-down");
+            }
+
+        })
+
+
+        $('.login_add, .login_add button a').mouseout(function () {
+            $('.top_menu_arrow').removeClass('up')
+            setTimeout(function () {
+                $('.login_add').css('display', 'none') //내려가고 올라가고 토글의 역할 T는 대문자
+                if ($('.top_menu_arrow').hasClass('up')) {
+                    $('.top_menu_arrow').find('i').attr('class', "fas fa-caret-up");
+                } else {
+                    $('.top_menu_arrow').find('i').attr('class', "fas fa-caret-down");
+                }
+            }, 500);
+        })
+    </script>
+    <script>
+        //popular_slider
+        $(document).ready(function () {
+            $('.popular_slide').slick({
+                dots:true,
+
+            });
+            
+        });
+    </script>
+
+</body>
+
+</html>
